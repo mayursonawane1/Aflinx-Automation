@@ -1,0 +1,284 @@
+<testsuites id="" name="" tests="12" failures="12" skipped="0" errors="0" time="20.745145">
+<testsuite name="auth.spec.ts" timestamp="2025-08-22T12:50:39.897Z" hostname="Chromium" tests="1" failures="1" skipped="0" time="0.025" errors="0">
+<testcase name="authenticate as admin" classname="auth.spec.ts" time="0.025">
+<failure message="auth.spec.ts:7:5 authenticate as admin" type="FAILURE">
+<![CDATA[  [Chromium] › auth.spec.ts:7:5 › authenticate as admin ────────────────────────────────────────────
+
+    Error: Error reading storage state from playwright/.auth/admin.json:
+    ENOENT: no such file or directory, open 'C:\Users\mgson\Desktop\Aflinx_Automation\playwright\.auth\admin.json'
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\auth-authenticate-as-admin-Chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\auth-authenticate-as-admin-Chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\..\test-results\auth-authenticate-as-admin-Chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="login.spec.ts" timestamp="2025-08-22T12:50:39.897Z" hostname="Chromium" tests="2" failures="2" skipped="0" time="0.056" errors="0">
+<testcase name="Login Tests › Login • TC01 • invalid@gmail.com • expect=Failure" classname="login.spec.ts" time="0.027">
+<failure message="login.spec.ts:42:9 Login • TC01 • invalid@gmail.com • expect=Failure" type="FAILURE">
+<![CDATA[  [Chromium] › login.spec.ts:42:9 › Login Tests › Login • TC01 • invalid@gmail.com • expect=Failure 
+
+    Error: Error reading storage state from playwright/.auth/admin.json:
+    ENOENT: no such file or directory, open 'C:\Users\mgson\Desktop\Aflinx_Automation\playwright\.auth\admin.json'
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\login-Login-Tests-Login-•--cabaf--gmail-com-•-expect-Failure-Chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\login-Login-Tests-Login-•--cabaf--gmail-com-•-expect-Failure-Chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\..\test-results\login-Login-Tests-Login-•--cabaf--gmail-com-•-expect-Failure-Chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Login Tests › Login • TC02 • adminuser@gmail.com • expect=Success" classname="login.spec.ts" time="0.029">
+<failure message="login.spec.ts:42:9 Login • TC02 • adminuser@gmail.com • expect=Success" type="FAILURE">
+<![CDATA[  [Chromium] › login.spec.ts:42:9 › Login Tests › Login • TC02 • adminuser@gmail.com • expect=Success 
+
+    Error: Error reading storage state from playwright/.auth/admin.json:
+    ENOENT: no such file or directory, open 'C:\Users\mgson\Desktop\Aflinx_Automation\playwright\.auth\admin.json'
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\login-Login-Tests-Login-•--ebcaa--gmail-com-•-expect-Success-Chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\login-Login-Tests-Login-•--ebcaa--gmail-com-•-expect-Success-Chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\..\test-results\login-Login-Tests-Login-•--ebcaa--gmail-com-•-expect-Success-Chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="readiness.spec.ts" timestamp="2025-08-22T12:50:39.897Z" hostname="Chromium" tests="1" failures="1" skipped="0" time="0.021" errors="0">
+<testcase name="Readiness | Create Requirement › Create a requirement with fake details" classname="readiness.spec.ts" time="0.021">
+<failure message="readiness.spec.ts:11:7 Create a requirement with fake details" type="FAILURE">
+<![CDATA[  [Chromium] › readiness.spec.ts:11:7 › Readiness | Create Requirement › Create a requirement with fake details 
+
+    Error: Error reading storage state from playwright/.auth/admin.json:
+    ENOENT: no such file or directory, open 'C:\Users\mgson\Desktop\Aflinx_Automation\playwright\.auth\admin.json'
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\readiness-Readiness-Create-0ed75-quirement-with-fake-details-Chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\readiness-Readiness-Create-0ed75-quirement-with-fake-details-Chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\..\test-results\readiness-Readiness-Create-0ed75-quirement-with-fake-details-Chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="auth.spec.ts" timestamp="2025-08-22T12:50:39.897Z" hostname="Firefox" tests="1" failures="1" skipped="0" time="0.018" errors="0">
+<testcase name="authenticate as admin" classname="auth.spec.ts" time="0.018">
+<failure message="auth.spec.ts:7:5 authenticate as admin" type="FAILURE">
+<![CDATA[  [Firefox] › auth.spec.ts:7:5 › authenticate as admin ─────────────────────────────────────────────
+
+    Error: Error reading storage state from playwright/.auth/admin.json:
+    ENOENT: no such file or directory, open 'C:\Users\mgson\Desktop\Aflinx_Automation\playwright\.auth\admin.json'
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\auth-authenticate-as-admin-Firefox\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\auth-authenticate-as-admin-Firefox\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\..\test-results\auth-authenticate-as-admin-Firefox\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="login.spec.ts" timestamp="2025-08-22T12:50:39.897Z" hostname="Firefox" tests="2" failures="2" skipped="0" time="0.052" errors="0">
+<testcase name="Login Tests › Login • TC01 • invalid@gmail.com • expect=Failure" classname="login.spec.ts" time="0.026">
+<failure message="login.spec.ts:42:9 Login • TC01 • invalid@gmail.com • expect=Failure" type="FAILURE">
+<![CDATA[  [Firefox] › login.spec.ts:42:9 › Login Tests › Login • TC01 • invalid@gmail.com • expect=Failure ─
+
+    Error: Error reading storage state from playwright/.auth/admin.json:
+    ENOENT: no such file or directory, open 'C:\Users\mgson\Desktop\Aflinx_Automation\playwright\.auth\admin.json'
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\login-Login-Tests-Login-•--cabaf--gmail-com-•-expect-Failure-Firefox\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\login-Login-Tests-Login-•--cabaf--gmail-com-•-expect-Failure-Firefox\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\..\test-results\login-Login-Tests-Login-•--cabaf--gmail-com-•-expect-Failure-Firefox\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Login Tests › Login • TC02 • adminuser@gmail.com • expect=Success" classname="login.spec.ts" time="0.026">
+<failure message="login.spec.ts:42:9 Login • TC02 • adminuser@gmail.com • expect=Success" type="FAILURE">
+<![CDATA[  [Firefox] › login.spec.ts:42:9 › Login Tests › Login • TC02 • adminuser@gmail.com • expect=Success 
+
+    Error: Error reading storage state from playwright/.auth/admin.json:
+    ENOENT: no such file or directory, open 'C:\Users\mgson\Desktop\Aflinx_Automation\playwright\.auth\admin.json'
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\login-Login-Tests-Login-•--ebcaa--gmail-com-•-expect-Success-Firefox\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\login-Login-Tests-Login-•--ebcaa--gmail-com-•-expect-Success-Firefox\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\..\test-results\login-Login-Tests-Login-•--ebcaa--gmail-com-•-expect-Success-Firefox\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="readiness.spec.ts" timestamp="2025-08-22T12:50:39.897Z" hostname="Firefox" tests="1" failures="1" skipped="0" time="0.024" errors="0">
+<testcase name="Readiness | Create Requirement › Create a requirement with fake details" classname="readiness.spec.ts" time="0.024">
+<failure message="readiness.spec.ts:11:7 Create a requirement with fake details" type="FAILURE">
+<![CDATA[  [Firefox] › readiness.spec.ts:11:7 › Readiness | Create Requirement › Create a requirement with fake details 
+
+    Error: Error reading storage state from playwright/.auth/admin.json:
+    ENOENT: no such file or directory, open 'C:\Users\mgson\Desktop\Aflinx_Automation\playwright\.auth\admin.json'
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\readiness-Readiness-Create-0ed75-quirement-with-fake-details-Firefox\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\readiness-Readiness-Create-0ed75-quirement-with-fake-details-Firefox\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\..\test-results\readiness-Readiness-Create-0ed75-quirement-with-fake-details-Firefox\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="auth.spec.ts" timestamp="2025-08-22T12:50:39.897Z" hostname="WebKit" tests="1" failures="1" skipped="0" time="0.029" errors="0">
+<testcase name="authenticate as admin" classname="auth.spec.ts" time="0.029">
+<failure message="auth.spec.ts:7:5 authenticate as admin" type="FAILURE">
+<![CDATA[  [WebKit] › auth.spec.ts:7:5 › authenticate as admin ──────────────────────────────────────────────
+
+    Error: Error reading storage state from playwright/.auth/admin.json:
+    ENOENT: no such file or directory, open 'C:\Users\mgson\Desktop\Aflinx_Automation\playwright\.auth\admin.json'
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\auth-authenticate-as-admin-WebKit\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\auth-authenticate-as-admin-WebKit\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\..\test-results\auth-authenticate-as-admin-WebKit\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="login.spec.ts" timestamp="2025-08-22T12:50:39.897Z" hostname="WebKit" tests="2" failures="2" skipped="0" time="0.041" errors="0">
+<testcase name="Login Tests › Login • TC01 • invalid@gmail.com • expect=Failure" classname="login.spec.ts" time="0.025">
+<failure message="login.spec.ts:42:9 Login • TC01 • invalid@gmail.com • expect=Failure" type="FAILURE">
+<![CDATA[  [WebKit] › login.spec.ts:42:9 › Login Tests › Login • TC01 • invalid@gmail.com • expect=Failure ──
+
+    Error: Error reading storage state from playwright/.auth/admin.json:
+    ENOENT: no such file or directory, open 'C:\Users\mgson\Desktop\Aflinx_Automation\playwright\.auth\admin.json'
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\login-Login-Tests-Login-•--cabaf--gmail-com-•-expect-Failure-WebKit\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\login-Login-Tests-Login-•--cabaf--gmail-com-•-expect-Failure-WebKit\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\..\test-results\login-Login-Tests-Login-•--cabaf--gmail-com-•-expect-Failure-WebKit\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Login Tests › Login • TC02 • adminuser@gmail.com • expect=Success" classname="login.spec.ts" time="0.016">
+<failure message="login.spec.ts:42:9 Login • TC02 • adminuser@gmail.com • expect=Success" type="FAILURE">
+<![CDATA[  [WebKit] › login.spec.ts:42:9 › Login Tests › Login • TC02 • adminuser@gmail.com • expect=Success 
+
+    Error: Error reading storage state from playwright/.auth/admin.json:
+    ENOENT: no such file or directory, open 'C:\Users\mgson\Desktop\Aflinx_Automation\playwright\.auth\admin.json'
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\login-Login-Tests-Login-•--ebcaa--gmail-com-•-expect-Success-WebKit\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\login-Login-Tests-Login-•--ebcaa--gmail-com-•-expect-Success-WebKit\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\..\test-results\login-Login-Tests-Login-•--ebcaa--gmail-com-•-expect-Success-WebKit\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="readiness.spec.ts" timestamp="2025-08-22T12:50:39.897Z" hostname="WebKit" tests="1" failures="1" skipped="0" time="0.014" errors="0">
+<testcase name="Readiness | Create Requirement › Create a requirement with fake details" classname="readiness.spec.ts" time="0.014">
+<failure message="readiness.spec.ts:11:7 Create a requirement with fake details" type="FAILURE">
+<![CDATA[  [WebKit] › readiness.spec.ts:11:7 › Readiness | Create Requirement › Create a requirement with fake details 
+
+    Error: Error reading storage state from playwright/.auth/admin.json:
+    ENOENT: no such file or directory, open 'C:\Users\mgson\Desktop\Aflinx_Automation\playwright\.auth\admin.json'
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\readiness-Readiness-Create-0ed75-quirement-with-fake-details-WebKit\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\readiness-Readiness-Create-0ed75-quirement-with-fake-details-WebKit\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\..\test-results\readiness-Readiness-Create-0ed75-quirement-with-fake-details-WebKit\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
